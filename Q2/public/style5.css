@@ -1,0 +1,86 @@
+@font-face {
+    font-family: fibo;
+    src: url(assets/Iranian\ Sans.ttf);
+ }
+ 
+  *{
+    font-family:fibo;
+}
+
+ body{
+      background-image: url(assets/back.jpg);
+      background-size: 100% 100%;
+  }
+
+
+.box {
+width: 100%;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.graybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 40%;
+    background-color: rgba(105, 101, 101, 0.5);
+    border-radius: 5px;
+   
+}
+
+
+.box1 {
+    height: 50px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 8px;
+    color: white;
+
+}
+button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(23, 204, 23);
+
+}
+
+input[type=text],  
+input[type=password] {  
+    width: 100%;  
+    padding-right: 40px;  
+    margin: 0; 
+    border-radius: 3px; 
+    border: none;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;  
+}  
+
+
+.user{
+    position: relative;
+}
+
+.user i{
+    position:absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
